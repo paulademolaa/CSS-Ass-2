@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    margin: 50px;
+    padding-top: 20px;
+}
+
+.left-container {
+    width: 40%;
+    margin-right: -20px;
+    background-color: #C3ABFE;
+    padding: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-self: space-between;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.bigtext p {
+    color: #000000;
+    margin-top: 5px;
+}
+
+.bigtext h1 {
+    font-size: 50px;
+}
+
+.bigtext span {
+    color: red;
+}
+
+.text {
+    margin: 30px 0;
+}
+
+.text h2 {
+    font-size: 40px;
+    line-height: 50px;
+    width: 400px;
+    color: #000000;
+}
+
+.student-img {
+    width: 250px;
+    margin-top: 20px;
+}
+
+.right-container {
+    width: 100%;
+    background-color: white;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-self: space-between;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+   border-radius: 20px;
+}
+
+.right-container h1{
+  font-size: 45px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+form input{
+  width: 100%;
+  padding: 18px;
+  margin-bottom: 25px;
+  border-width: 2px;
+  border-color: #000000;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.name-input {
+  display: flex;
+  gap: 20px;
+}
+
+.forgotten-password p {
+  color: #9975FB;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input i{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: black;
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.checkbox input{
+  width: auto;
+  margin: 0;
+}
+
+.checkbox span{
+  color: #ff8a8a;
+}
+
+.otp-box{
+  display: flex;
+  gap: 20px;
+  margin-top: 18px;
+  margin-bottom: 50px;
+}
+
+.otp-box input{
+  width: 70px;
+  height: 70px;
+  border: 3px solid #888;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 28px;
+  outline: none;
+}
+
+button{
+  width: 100%;
+  padding: 18px;
+  border: none;
+  border-radius: 10px;
+  background: #9975FB;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.or-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0 30px;
+  gap: 10px;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.social-icons i{
+  width: 50px;
+  height: 50px;
+  background: #eee;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.login-text{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.login-text a{
+  color: red;
+  text-decoration: none;
+}
+
+.success {
+  text-align: center;
+}
+
+.check-icon{
+  width: 70px;
+  height: 70px;
+  background: #7bb657;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.check-icon i{
+  color: white;
+  font-size: 40px;
+}
+
+.success h2{
+  margin-top: 30px;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.success p{
+  margin-top: 20px;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
