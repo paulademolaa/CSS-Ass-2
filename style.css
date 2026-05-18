@@ -156,6 +156,11 @@ button{
   cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .or-signup {
   display: flex;
   align-items: center;
